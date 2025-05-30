@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@fontsource/poppins/index.css";
 
 :root {
   --background: #ffffff;
@@ -22,5 +23,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Oculta la scrollbar horizontal en todos los navegadores */
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari/Webkit */
 }

@@ -281,7 +281,7 @@ export default function Home() {
         </div>
 
         <button 
-          className={`absolute top-[450px] left-[200px] px-5 py-2 rounded-lg bg-[#4b70f5] text-white font-medium text-lg hover:bg-[#6c3ad6] transition-[transform,opacity] duration-700 ease-out hover:transition-colors hover:duration-200 ${
+          className={`absolute 2xl:top-[450px] 2xl:left-[200px] xl:top-[380px] xl:left-[120px] lg:top-[290px] lg:left-[70px] md:top:[150px] md:left-[85px] px-5 py-2 rounded-lg bg-[#4b70f5] text-white font-medium text-lg hover:bg-[#6c3ad6] transition-[transform,opacity] duration-700 ease-out hover:transition-colors hover:duration-200 ${
             isBannerVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'
           }`}
           style={{ transitionDelay: '300ms' }}
